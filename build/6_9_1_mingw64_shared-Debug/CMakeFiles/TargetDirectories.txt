@@ -1,0 +1,9 @@
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/CelestrakFetcher.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/edit_cache.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/rebuild_cache.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/list_install_components.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/install.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/install/local.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/install/strip.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/CelestrakFetcher_autogen_timestamp_deps.dir
+D:/QtApp/CelestrakFetcher/build/6_9_1_mingw64_shared-Debug/CMakeFiles/CelestrakFetcher_autogen.dir

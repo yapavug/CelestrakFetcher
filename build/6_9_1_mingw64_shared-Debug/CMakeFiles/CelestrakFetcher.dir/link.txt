@@ -1,0 +1,3 @@
+D:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\CelestrakFetcher.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\CelestrakFetcher.dir/objects.a @CMakeFiles\CelestrakFetcher.dir\objects1.rsp
+D:\msys64\mingw64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\CelestrakFetcher.dir/objects.a -Wl,--no-whole-archive -o CelestrakFetcher.exe -Wl,--out-implib,libCelestrakFetcher.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CelestrakFetcher.dir\linkLibs.rsp
