@@ -35,6 +35,8 @@ public:
     QHBoxLayout *horizontalLayout;
     QTableView *tableView_satellites;
     QPlainTextEdit *plainTextEdit_log;
+    QTableView *tableView_tle;
+    QPushButton *pushButton_fetch_tle;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -42,7 +44,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1296, 684);
+        MainWindow->resize(1530, 1200);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
@@ -81,10 +83,16 @@ public:
 
         verticalLayout->addWidget(widget_2);
 
+        tableView_tle = new QTableView(centralwidget);
+        tableView_tle->setObjectName("tableView_tle");
+        tableView_tle->setGeometry(QRect(160, 560, 741, 521));
+        pushButton_fetch_tle = new QPushButton(centralwidget);
+        pushButton_fetch_tle->setObjectName("pushButton_fetch_tle");
+        pushButton_fetch_tle->setGeometry(QRect(960, 600, 131, 29));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1296, 25));
+        menubar->setGeometry(QRect(0, 0, 1530, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -99,6 +107,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton_fetch->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\263\321\200\321\203\320\267\320\270\321\202\321\214 \320\264\320\260\320\275\320\275\321\213\320\265", nullptr));
+        pushButton_fetch_tle->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\263\321\200\321\203\320\267\320\270\321\202\321\214 TLE", nullptr));
     } // retranslateUi
 
 };

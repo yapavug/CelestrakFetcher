@@ -35,12 +35,19 @@ private slots:
     void on_pushButton_fetch_clicked();
     void onReplyFinished(QNetworkReply *reply);
 
+    void on_pushButton_fetch_tle_clicked();
+
 private:
     Ui::MainWindow *ui;
     QNetworkAccessManager *networkManager;
     QSqlDatabase db;
+    QSqlDatabase dbTle;       // новая БД для TLE
+
     void setupDatabase();
+    void setupTleDatabase();  // новая
     void saveToDatabase(const QStringList &headers, const QList<QStringList> &data);
+    void saveTleToDatabase(const QStringList &headers, const QList<QStringList> &data); // новая
     void loadFromDatabase();
+    void loadTleFromDatabase(); // новая
 };
 #endif // MAINWINDOW_H

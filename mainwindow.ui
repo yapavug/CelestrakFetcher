@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1296</width>
-    <height>684</height>
+    <width>1530</width>
+    <height>1200</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -63,13 +63,36 @@
      </item>
     </layout>
    </widget>
+   <widget class="QTableView" name="tableView_tle">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>560</y>
+      <width>741</width>
+      <height>521</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_fetch_tle">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>600</y>
+      <width>131</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить TLE</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1296</width>
+     <width>1530</width>
      <height>25</height>
     </rect>
    </property>
